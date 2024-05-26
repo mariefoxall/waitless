@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import clownFace from "./assets/clown.png";
 import Menu from "./Menu/Menu";
 import Shows from "./Shows/Shows";
-import Gallery from "./Contact/Contact";
 import Music from "./Music/Music";
 import Bio from "./Bio/Bio";
 import Shop from "./Shop/Shop";
@@ -25,7 +24,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shows" element={<Shows />} />
-        <Route path="/gallery" element={<Gallery />} />
         <Route path="/bio" element={<Bio />} />
         <Route path="/music" element={<Music />} />
         <Route path="/shop" element={<Shop />} />

@@ -7,8 +7,6 @@ export default function Videos() {
       <div className="video">
         <iframe
           className="video-iframe"
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/1Z1wVogZjXM?si=G1evFivtxBEVOLTA"
           title="YouTube video player"
           frameBorder="0"

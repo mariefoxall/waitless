@@ -33,14 +33,14 @@
 .nav-menu-links__container > a {
   width: 100%;
   display: block;
-  background-color: rgba(248, 118, 82, 0.8);
+  background-color: rgb(194, 249, 82);
   text-align: right;
   color: #4d4dff;
   padding: 0.4rem 0.8rem;
 }
 
 .nav-menu-links__container > a:hover {
-  background-color: rgb(248, 118, 82);
+  background-color: #ff694e;
   color: #e6e6ff;
 }
 

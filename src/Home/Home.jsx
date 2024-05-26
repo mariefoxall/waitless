@@ -1,13 +1,15 @@
 import "./Home.css";
+import bandPic from "../assets/waitless-band.jpeg";
+
 function Home() {
   return (
-    <>
-      {/* <div className="waitless-title">
-        <h1>WAIT</h1>
-        <h1>//</h1>
-        <h1>LESS</h1>
-      </div> */}
-    </>
+    <div className="home-page">
+      <img
+        className="band-pic"
+        src={bandPic}
+        alt="Four members of the band Wait//less piled up in theatre seats"
+      />{" "}
+    </div>
   );
 }
 

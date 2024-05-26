@@ -7,13 +7,13 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
 .logo {
-  height: 4em;
-  padding-top: 4px;
+  height: 100px;
+  margin-top: 18px;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -34,6 +34,19 @@ header {
   }
 }
 
-.home-button:hover {
-  transform: rotate(3deg);
+.logo:hover {
+  filter: drop-shadow(0 0 2em #e2230aaa);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a .logo {
+    animation: logo-spin infinite 5s linear;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    height: 70px;
+    width: 70px;
+  }
 }

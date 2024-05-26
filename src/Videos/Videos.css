@@ -1,0 +1,10 @@
+.video-iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media only screen and (max-width: 480px) {
+  .video-iframe {
+    width: 100%;
+  }
+}

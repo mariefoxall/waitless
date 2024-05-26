@@ -1,3 +1,3 @@
-# Entretemps Gallery
+# WAIT/LESS
 
-Basic site with appointment reservation, contact info and shop
+is a band, dummy

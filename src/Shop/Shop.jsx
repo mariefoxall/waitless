@@ -2,7 +2,7 @@ function Shop() {
   return (
     <>
       <h2>
-        Silent Auction <br></br>info coming soon!
+        HOLD YER HORSES! <br /> COMING SOON
       </h2>
     </>
   );

@@ -1,12 +1,13 @@
 :root {
-  font-family: "Sen", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgb(206, 240, 137);
+  /* color: #b5604f; */
   background-color: #242424;
 
   font-synthesis: none;
@@ -40,21 +41,22 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: rgb(204, 204, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(204, 204, 255, 1) 0%,
-    rgba(255, 48, 0, 0.7) 100%
-  );
-  text-wrap: wrap;
+  background-color: black;
+  position: relative;
+  background-image: url("./assets/fire.gif");
+  background-position: bottom left;
+  background-size: auto 270px;
+  background-repeat: repeat-x;
 }
 
 h1 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
   margin-bottom: 0.3rem;
-  font-size: 16rem;
+  font-size: 5.5rem;
   line-height: 1.1;
-  text-wrap: wrap;
-  overflow-wrap: break-word;
+  color: #ff694e;
 }
 
 h2 {
@@ -79,7 +81,7 @@ button:focus-visible {
 
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 8rem;
+    display: none;
   }
   h2 {
     font-size: 2rem;

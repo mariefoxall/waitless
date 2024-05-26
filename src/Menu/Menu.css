@@ -2,12 +2,13 @@
   position: relative;
   cursor: pointer;
   padding: 0.6em;
+  margin-top: 8px;
 }
 
 .nav-menu-links {
   position: absolute;
-  top: 90%;
-  right: 6px;
+  top: 130%;
+  right: 2px;
   display: grid;
   grid-template-columns: max-content;
   grid-template-rows: 0fr;
@@ -15,6 +16,9 @@
 }
 
 .nav-menu:hover {
+  .menu-icon {
+    visibility: visible;
+  }
   .nav-menu-links {
     grid-template-rows: 1fr;
   }
@@ -29,18 +33,67 @@
 .nav-menu-links__container > a {
   width: 100%;
   display: block;
-  background-color: rgb(255, 119, 88, 0.8);
+  background-color: rgba(248, 118, 82, 0.8);
   text-align: right;
   color: #4d4dff;
   padding: 0.4rem 0.8rem;
 }
 
 .nav-menu-links__container > a:hover {
-  background-color: rgb(255, 119, 88);
+  background-color: rgb(248, 118, 82);
   color: #e6e6ff;
 }
 
-.burger {
-  height: 3em;
-  margin: -0.5em;
+.menu-button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-icon {
+  position: relative;
+  z-index: 10;
+  color: black;
+  visibility: hidden;
+}
+
+.sawblade {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: -18px;
+  z-index: 1;
+}
+
+.sawblade:hover {
+  filter: drop-shadow(0 0 2em #e2230aaa);
+}
+
+@keyframes sawblade-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sawblade {
+    animation: sawblade-spin infinite 5s linear;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sawblade {
+    height: 70px;
+    width: 70px;
+  }
+
+  .menu-icon {
+    height: 35px;
+  }
 }

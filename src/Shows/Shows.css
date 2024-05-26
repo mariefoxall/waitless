@@ -1,0 +1,13 @@
+.show {
+  margin: 8px;
+  padding: 8px;
+}
+
+.show > a {
+  font-size: 2rem;
+  color: #c7adfb;
+}
+
+.shows-section {
+  margin-top: 40px;
+}

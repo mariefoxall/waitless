@@ -1,8 +1,12 @@
+import "./Home.css";
 function Home() {
   return (
     <>
-      <h1>entretemps</h1>
-      <p>studio / gallery</p>
+      {/* <div className="waitless-title">
+        <h1>WAIT</h1>
+        <h1>//</h1>
+        <h1>LESS</h1>
+      </div> */}
     </>
   );
 }

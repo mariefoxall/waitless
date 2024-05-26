@@ -1,3 +1,3 @@
-# WAIT/LESS
+# WAIT//LESS
 
 is a band, dummy

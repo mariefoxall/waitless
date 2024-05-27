@@ -21,7 +21,7 @@ function Exhibitions() {
           href="https://www.commodoreballroom.com/view-all/2024/5/11-doa"
           target="blank"
         >
-          May 8 2024
+          May 11 2024
         </a>
         <p>Commodore Ballroom</p>
         <p>Vancouver BC</p>

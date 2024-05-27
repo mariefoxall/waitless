@@ -1,8 +1,23 @@
 .home-page {
   display: flex;
   justify-content: center;
+  height: calc(100% - 363px);
+  overflow: hidden;
+  width: 100%;
+  /* object-fit: contain; */
+  aspect-ratio: 3/2;
+  margin-top: 100px;
 }
 
 .band-pic {
-  height: calc(100vh - 350px);
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 480px) {
+  .band-pic {
+  }
 }

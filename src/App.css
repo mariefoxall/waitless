@@ -10,7 +10,15 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  margin-left: -5px;
+  margin-left: -10px;
+}
+
+.desktop-title {
+  display: block;
+}
+
+.mobile-title {
+  display: none;
 }
 
 .logo {
@@ -40,6 +48,10 @@ header {
   filter: drop-shadow(0 0 2em #e2230aaa);
 }
 
+.title-container {
+  margin-top: 8px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a .logo {
     animation: logo-spin infinite 5s linear;
@@ -57,6 +69,14 @@ header {
   }
 
   header {
-    height: 60px;
+    height: 70px;
+  }
+
+  .desktop-title {
+    display: none;
+  }
+
+  .mobile-title {
+    display: block;
   }
 }

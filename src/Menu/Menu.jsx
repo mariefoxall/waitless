@@ -1,5 +1,5 @@
 import "./Menu.css";
-import menu from "../assets/menu.svg";
+import menu from "../assets/menu-red.svg";
 import sawblade from "../assets/sawblade.png";
 
 function Menu() {

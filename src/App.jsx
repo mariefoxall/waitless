@@ -18,7 +18,12 @@ function App() {
             <img src={clownFace} className="logo" alt="Spooky clown face" />
           </Link>
         </button>
-        <h1>WAIT//LESS</h1>
+        <Link className="title-container" to="/">
+          <h1 className="desktop-title">WAIT//LESS</h1>
+          <h1 className="mobile-title">
+            WAIT//<br></br>LESS
+          </h1>
+        </Link>
         <Menu />
       </header>
       <Routes>

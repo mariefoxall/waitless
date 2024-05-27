@@ -8,7 +8,7 @@
 .nav-menu-links {
   position: absolute;
   top: 130%;
-  right: 2px;
+  right: -10px;
   display: grid;
   grid-template-columns: max-content;
   grid-template-rows: 0fr;
@@ -16,11 +16,11 @@
 }
 
 .nav-menu:hover {
-  .menu-icon {
-    visibility: visible;
-  }
   .nav-menu-links {
     grid-template-rows: 1fr;
+  }
+  .sawblade {
+    filter: drop-shadow(0 0 2em #e2230aaa);
   }
 }
 .nav-menu-links__container {
@@ -56,20 +56,14 @@
 .menu-icon {
   position: relative;
   z-index: 10;
-  color: black;
-  visibility: hidden;
+  height: 50px;
 }
 
 .sawblade {
   height: 100px;
   width: 100px;
   position: absolute;
-  left: -18px;
   z-index: 1;
-}
-
-.sawblade:hover {
-  filter: drop-shadow(0 0 2em #e2230aaa);
 }
 
 @keyframes sawblade-spin {
